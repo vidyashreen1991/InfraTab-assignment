@@ -18,6 +18,14 @@ header{
     flex-basis: 40%;
 }
 
+.Dropdown-control .Dropdown-placeholder{
+    color:  #0a09095c;
+}
+
+.Dropdown-control .is-selected{
+    color:  #000;
+}
+
 .Dropdown-control{
     cursor: pointer;
 }
@@ -43,11 +51,10 @@ header{
     align-self: flex-end;
     border-bottom: 2px solid #9e9e9e5c;
     padding-bottom: 10px;
+    color:  #9e9e9e5c;
+
 }
 
-.Dropdown-control{
-    color: #9e9e9e5c;
-}
 .search-field {
     font-size: 16px;
     padding: 10px;

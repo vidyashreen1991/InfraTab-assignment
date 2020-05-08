@@ -18,6 +18,10 @@ header{
     flex-basis: 40%;
 }
 
+.Dropdown-control{
+    cursor: pointer;
+}
+
 .Dropdown-control,
 .search-field {
     border: none;
@@ -119,6 +123,7 @@ td, th {
 .pagination-buttons {
     border: none;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .pagination-buttons:focus{
@@ -126,5 +131,6 @@ td, th {
 }
 
 .pagination-dropdown{
+    cursor: pointer;
     border: none;
 }
